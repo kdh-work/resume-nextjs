@@ -50,6 +50,7 @@ const toolIdes: ISkill.Skill = {
     { title: 'BitBucket' },
     { title: 'Confluence' },
     { title: 'VS Code' },
+    { title: 'WebStorm' },
     { title: 'Eclipse' },
     { title: 'Websquare5' },
   ],
@@ -57,7 +58,7 @@ const toolIdes: ISkill.Skill = {
 
 const misc: ISkill.Skill = {
   category: 'Misc',
-  items: [{ title: 'Traditional Archery' }, { title: 'Watching Movies' }],
+  items: [{ title: 'Traditional Archery' }],
 };
 
 const skill: ISkill.Payload = {
