@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: 'Notion 링크는 이메일로 요청해주세요',
+    title: '이메일로 연락 부탁드립니다.', // 'Notion 링크는 이메일로 요청해주세요',
     icon: faBell,
   },
 };
