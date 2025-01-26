@@ -14,19 +14,12 @@ const frameworksLibs: ISkill.Skill = {
     { title: 'Echart.js' },
     { title: 'Ant Design' },
     { title: 'PrimeVue' },
-    { title: 'React' },
-    { title: 'Next.js' },
   ],
 };
 
 const toolIdes: ISkill.Skill = {
   category: 'Tools & IDES',
   items: [
-    { title: 'yarn' },
-    { title: 'pnpm' },
-    { title: 'npm' },
-    { title: 'Webpack' },
-    { title: 'Vite' },
     { title: 'Git' },
     { title: 'GitLab' },
     { title: 'GitHub' },
