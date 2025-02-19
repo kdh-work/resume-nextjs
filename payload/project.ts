@@ -15,10 +15,7 @@ const project: IProject.Payload = {
         {
           content: '2차 신규 개발',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: '플랫폼 관리 - 스토리지 플랫폼(NetApp ONTAP)' },
-            { content: '장치 관리 고도화 - 장치 유형별 등록/수정 조건화' },
-          ],
+          descriptions: [{ content: '플랫폼 관리 - 스토리지 플랫폼(NetApp ONTAP)' }],
         },
         {
           content: '1차 개발 고도화',
