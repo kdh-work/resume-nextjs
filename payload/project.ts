@@ -9,9 +9,25 @@ const project: IProject.Payload = {
       where: '오케스트로',
       descriptions: [
         {
+          content: '장치/플랫폼 관리 파트 담당',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '2차 신규 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '플랫폼 관리 - 스토리지 플랫폼(NetApp ONTAP)' },
+            { content: '장치 관리 고도화 - 장치 유형별 등록/수정 조건화' },
+          ],
+        },
+        {
           content: '1차 개발 고도화',
           weight: 'MEDIUM',
-          descriptions: [{ content: '상태 데이터 타입 통일' }],
+          descriptions: [
+            { content: '상태 데이터 타입 통일' },
+            { content: '장치 관리 고도화 - 장치 유형별 등록/수정 조건화' },
+            { content: '플랫폼 관리 - 클라우드 플랫폼(OpenStack) 등록/수정 기능 기획&개발' },
+          ],
         },
         {
           content: '공통 컴포넌트 및 기능 개발',
@@ -140,7 +156,7 @@ const project: IProject.Payload = {
             { content: 'Button 컴포넌트 개발' },
             { content: 'Tab 컴포넌트 개발' },
             { content: 'Echart.js 위젯 컴포넌트 개발' },
-            { content: '공툥 스타일 CSS 통일화' },
+            { content: '공통 스타일 CSS 통일화' },
           ],
         },
         { content: 'Pinia 도입', weight: 'MEDIUM' },
