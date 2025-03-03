@@ -1,6 +1,5 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { faEnvelope, faPhone, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/dh_kwon.jpg';
@@ -31,8 +30,9 @@ const profile: IProfile.Payload = {
       icon: faLinkedin,
     },
     {
-      title: '개설 중',
-      icon: faGithub,
+      title: 'Notion',
+      link: 'https://blush-raclette-3ec.notion.site/181738fbfb98805e8bedfd98cea39a79',
+      icon: faFile,
     },
   ],
   notice: {
