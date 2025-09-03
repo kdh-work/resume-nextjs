@@ -34,14 +34,9 @@ const toolIdes: ISkill.Skill = {
   ],
 };
 
-const misc: ISkill.Skill = {
-  category: 'Misc',
-  items: [{ title: 'Traditional Archery' }],
-};
-
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [languages, frameworksLibs, toolIdes, misc],
+  skills: [languages, frameworksLibs, toolIdes],
 };
 
 export default skill;
