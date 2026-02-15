@@ -1,6 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
+// import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/dh_kwon.jpg';
 
@@ -19,7 +20,7 @@ const profile: IProfile.Payload = {
       link: 'mailto:kdhtoon@gamil.com',
       icon: faEnvelope,
     },
-    {
+    /*    {
       title: 'Please contact me by email',
       icon: faPhone,
       badge: true,
@@ -33,12 +34,12 @@ const profile: IProfile.Payload = {
       title: 'Portfolio',
       link: 'https://kdh-work.github.io/project-log-book/',
       icon: faGithub,
-    },
+    }, */
   ],
-  notice: {
+  /*  notice: {
     title: '이메일로 연락 부탁드립니다.', // 'Notion 링크는 이메일로 요청해주세요',
     icon: faBell,
-  },
+  }, */
 };
 
 export default profile;

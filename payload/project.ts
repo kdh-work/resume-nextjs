@@ -4,8 +4,35 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'CMP 솔루션 개발',
+      startedAt: '2026-01',
+      where: '오케스트로',
+      descriptions: [
+        {
+          content: 'CMP 솔루션 인벤토리 파트 - Frontend Developer',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '3.0.5 마이그레이션',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '릴리즈 7, 8 - 신규 화면 개발',
+            },
+            {
+              content: 'QA 결함 - 설계 이슈 확인 후 대안 제안하여 이슈 해결',
+            },
+            {
+              content: '입력값에 대한 Validation 처리 이슈 해결',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '하나금융 TI 통합 모니터링 플랫폼 솔루션 공동 개발 프로젝트 2차',
       startedAt: '2025-01',
+      endedAt: '2026-01',
       where: '오케스트로',
       descriptions: [
         {
@@ -28,9 +55,13 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '공통 컴포넌트 및 기능 개발',
+          content: '컴포넌트/데이터 공통화 및 기능 개발',
           weight: 'MEDIUM',
-          descriptions: [{ content: '공통 상태 컴포넌트 및 처리 기능 개발' }],
+          descriptions: [
+            { content: '공통 상태 컴포넌트 및 처리 기능 개발' },
+            { content: '공통 속성의 데이터 통일화 및 코드 처리' },
+            { content: '전체 유효성 메세지 통일화' },
+          ],
         },
         {
           content: '기획 설계 참여 및 UI/UX 개선',
